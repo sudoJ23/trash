@@ -1,0 +1,36 @@
+.kepala {
+    position: absolute;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+}
+
+.pojokkanan {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.tombol {
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 40px;
+    cursor: pointer;
+    transition: .2s;
+    color: unset;
+    text-decoration: none;
+}
+
+.tombol:hover {
+    background: rgb(68, 68, 68);
+    color: white;
+    text-decoration: none;
+}
+
+.ditengah {
+    /* margin: 0 auto; */
+    margin-top: 25%;
+}
